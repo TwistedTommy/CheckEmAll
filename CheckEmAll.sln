@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckEmAll-GUI", "CheckEmAll-GUI\CheckEmAll-GUI.csproj", "{D56E4239-A3EB-4D2B-99B1-D7AA0500CECB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckEmAll-Release", "CheckEmAll-Release\CheckEmAll-Release.csproj", "{56452C95-BB39-4EDD-A524-5A193769F80A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{94EA611E-8725-4603-9985-A333DED77545} = {94EA611E-8725-4603-9985-A333DED77545}
+		{D56E4239-A3EB-4D2B-99B1-D7AA0500CECB} = {D56E4239-A3EB-4D2B-99B1-D7AA0500CECB}
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "CheckEmAll-Setup", "CheckEmAll-Setup\CheckEmAll-Setup.vdproj", "{94EA611E-8725-4603-9985-A333DED77545}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Description = The Original Automated Dat Checker
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D56E4239-A3EB-4D2B-99B1-D7AA0500CECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D56E4239-A3EB-4D2B-99B1-D7AA0500CECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D56E4239-A3EB-4D2B-99B1-D7AA0500CECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D56E4239-A3EB-4D2B-99B1-D7AA0500CECB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56452C95-BB39-4EDD-A524-5A193769F80A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56452C95-BB39-4EDD-A524-5A193769F80A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56452C95-BB39-4EDD-A524-5A193769F80A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56452C95-BB39-4EDD-A524-5A193769F80A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94EA611E-8725-4603-9985-A333DED77545}.Debug|Any CPU.ActiveCfg = Debug
+		{94EA611E-8725-4603-9985-A333DED77545}.Debug|Any CPU.Build.0 = Debug
+		{94EA611E-8725-4603-9985-A333DED77545}.Release|Any CPU.ActiveCfg = Release
+		{94EA611E-8725-4603-9985-A333DED77545}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {895FBEAB-2370-409B-B9AF-BBB72957FE9C}
+	EndGlobalSection
+EndGlobal

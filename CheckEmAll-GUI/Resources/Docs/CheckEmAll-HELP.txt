@@ -1,0 +1,64 @@
+-------------------------------------------------------------------------------
+CheckEmAll - Help version 20220326
+Copyright (c) 2016-2022 CheckEmAll - All Rights Reserved
+-------------------------------------------------------------------------------
+
+[I] About
+[II] Notes
+[III] Installation
+[IV] How to Check Game and ROM Names
+[V] Contributing
+[VI] Contact
+[VII] Disclaimers
+
+[I] About
+-------------------------------------------------------------------------------
+CheckEmAll or CHEA is The Original Automated Dat Checker. CheckEmAll automates the process of checking for differences in game and ROM names.
+
+CheckEmAll compares a Redump ISO datafile to a NKit datafile and lists the differences in game and ROM names. It could possibly compare other dats, but wasn't designed to.
+
+[II] Notes
+-------------------------------------------------------------------------------
+1) This program will check all game and ROM names in the left and right dats, that match the checked filter options, and display a list of matching and non matching game and ROM names.
+
+[III] Installation
+-------------------------------------------------------------------------------
+Download and unzip the program to any location that you wish to use. However, this software should be installed as close to the drive's root directory as possible.
+
+I like to put my installation in a directory called CHEA on my C:\ drive. My installation layout looks like this:
+
+C:\CHEA\Dats\
+C:\CHEA\Docs\
+C:\CHEA\Lists\
+C:\CHEA\CheckEmAll-GUI.exe
+
+[IV] How to Check Game and ROM Names
+-------------------------------------------------------------------------------
+- Load your Redump ISO datafile on one side and your NKit datafile on the other side.
+- Check and uncheck which filter options to use.
+- Save a list on either side as needed.
+
+[V] Contributing
+-------------------------------------------------------------------------------
+Let's work better together. We are looking to collaborate with like-minded people who want to contribute in any capacity. Collaboration is open to everyone and we need your help if you are a:  
+
+- Collector
+- Database Administrator
+- Datter
+- Developer
+- Dumper
+- Graphic Artist
+- Linguist/Translator
+- Player
+- Tester
+
+[VI] Contact
+-------------------------------------------------------------------------------
+GitHub: https://github.com/TwistedTommy/CheckEmAll
+
+[VII] Disclaimers
+-------------------------------------------------------------------------------
+This software may only be used and/or distributed in accordance with the license with which it is distributed.
+
+Piracy hurts everyone. We do not upload, share, distribute or provide links to anything illegal, including ROMs or patches.
+
