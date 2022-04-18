@@ -6,6 +6,10 @@ CheckEmAll or CHEA is The Original Automated Dat Checker. CheckEmAll automates t
 CheckEmAll compares a Redump ISO datafile to a NKit datafile and lists the differences in game and ROM names. It could possibly compare other dats, but wasn't designed to do so.  
 ## Dependencies
 .Net Framework 4.7.2  
+## Projects
+- CheckEmAll-GUI - Windows Forms App
+- CheckEmAll-Release - Release Project
+- CheckEmAll-Setup - Setup Project
 ## How to Check Game and ROM Names
 - Load your Redump ISO datafile on one side and your NKit datafile on the other side.
 - Check and uncheck which filter options to use.
@@ -25,4 +29,4 @@ Let's work better together. We are looking to collaborate with like-minded peopl
 GitHub: [https://github.com/TwistedTommy/CheckEmAll](https://github.com/TwistedTommy/CheckEmAll "GitHub")  
 ## Disclaimer
 We do not upload, share, distribute or provide links to anything illegal, including ROMs or patches.
-###### Copyright (c) 2016-2022 CheckEmAll - All Rights Reserved v2022-03-26-00
+###### Copyright (c) 2016-2022 CheckEmAll - All Rights Reserved v2022-04-17-00
